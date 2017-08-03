@@ -11,7 +11,8 @@ You'll need the following `pip` packages:
 * `flask-cors`
 * `ulid`
 
-Of course, you'll want to do this is a jupyter notebook.
+Of course, you'll want to do this in a jupyter notebook, so you'll 
+need that too.
 
 # HOWTO
 
@@ -55,7 +56,7 @@ and you can actually ship (some) Python code:
 	
 That should print `75` to your notebook output. (If you're curious,
 the way this works is we ship Python bytecode across the language
-barrier and interpret it in Javascript. Yes, this actually works.)
+barrier and interpret it in Javascript. Yes, this kind of works.)
 
 
 
